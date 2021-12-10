@@ -1,0 +1,86 @@
+Protocollo comunicazione Indovina chi
+
+Chat = 
+Apertura:
+fase1:
+	a;NOME_MITTENTE;  
+	( chiamata NON bloccante)
+
+fase2:	
+se posso/voglio accettare la connessione ->	
+	y;NOME_DESTINATARIO;
+se non posso/voglio accettare la connessione ->	
+	n;
+fase3:	
+	y;
+	n;
+	
+Se ho una connessione in attesa di rispo
+e mi arriva un'altra connessione
+la annullo a prescindere
+
+se richiedo ma non ricevo risposta, 
+annullo 
+se poi mi risponde, invio "n;"
+( se non mi risponde, non invio niente durante la fase
+di annulla)
+
+Dialogo
+
+	m;CONTENUTO_MESSAGGIO
+	
+prevedere la possibilità di espandere i "comandi"
+	
+	
+se ricevo un messaggio da una comunicazione già chiusa
+( o non ancora aperta)
+invio "c;"
+
+
+
+Chiusura
+
+Abbandona partita
+	c;
+
+
+Gioco =
+
+Apertura:
+
+Giocatore pronto : p;// opzionale s; ns-> numero di scheda giocata
+
+Ricevo: p; (inizia)
+Ricevo: c; (chiudi)
+
+
+Dialogo:
+
+Bottone turno-> t;
+
+Ogni volta che ne selezioniamo una
+
+Mandiamo caselle che tiriamo giù = g;pos; -> a1,a2,b1 (id caselle)
+
+Mandiamo caselle che tiriamo su= s;pos; -> a1,a2,b1 (id caselle)
+
+Indovina personaggio = i;id
+Hai indovinato-> iv;
+Non hai indovinato-> ip; 
+
+/*
+//opzionale
+Tasto suggerimeto -> l;2/3;ids(-);
+Riceviamo -> ls;ids(-);*/
+
+
+Chiusura:
+
+Abbandona partita-> tasto di chiusura
+rigioca-> r;
+
+
+
+//punti iniziali:100
+//lampadina base=50 avanzata=80
+//vincita partita=130 pt
