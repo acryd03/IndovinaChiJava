@@ -20,7 +20,7 @@ public class MApertura extends Messaggio {
 
     String nomeMittente;
     String[] opt = {"SI", "NO"};
-
+    
     public MApertura(DatagramPacket p) throws SocketException, UnknownHostException {
         super(p);
         nomeMittente = "";
