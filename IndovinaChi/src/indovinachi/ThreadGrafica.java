@@ -28,12 +28,15 @@ public class ThreadGrafica extends Thread {
     @Override
     public void run() {
         while (true) {
-            c.frame.repaint();
+            if(c.frame!=null){
+                c.frame.repaint();
             try {
                 Thread.sleep(500);
             } catch (InterruptedException ex) {
                 Logger.getLogger(ThreadGrafica.class.getName()).log(Level.SEVERE, null, ex);
             }
+            }
+            
         }
     }
 
