@@ -45,8 +45,8 @@ public class Gestione extends Thread {
                     break;
                 }
                 case "m": {
-                    MBase mt = new MBase(p);
-                    mt.execute();
+                    MBase mb = new MBase(p);
+                    mb.execute();
                     break;
                 }
                 case "y": {
@@ -62,6 +62,10 @@ public class Gestione extends Thread {
                 case "n": {
                     connectedIP = null;
                     break;
+                }
+                case "p":{
+                    MPronto mp=new MPronto(p);
+                    mp.execute();
                 }
 
             }

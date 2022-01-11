@@ -22,6 +22,8 @@ public class Condivisa {
     String nome;
     String messaggio;
     static Condivisa instance=null;
+    boolean pronto=false;
+    boolean prontoDest=false;
 
     private Condivisa() throws SocketException, UnknownHostException {
         socket = new UtilPacchetto(12345, "localhost"); //socket per ascolto

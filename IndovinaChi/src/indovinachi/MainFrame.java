@@ -38,83 +38,81 @@ import javax.swing.colorchooser.AbstractColorChooserPanel;
  * @author User
  */
 public class MainFrame extends javax.swing.JFrame {
-    public boolean check1=true;
-    public boolean check2=true;
-    public boolean check3=true;
-    public boolean check4=true;
-    public boolean check5=true;
-    public boolean check6=true;
-    public boolean check7=true;
-    public boolean check8=true;
-    public boolean check9=true;
-    public boolean check10=true;
-    public boolean check11=true;
-    public boolean check12=true;
-    public boolean check13=true;
-    public boolean check14=true;
-    public boolean check15=true;
-    public boolean check16=true;
-    public boolean check17=true;
-    public boolean check18=true;
-    public boolean check19=true;
-    public boolean check20=true;
-    public boolean check21=true;
-    public boolean check22=true;
-    public boolean check23=true;
-    public boolean check24=true;
-    ImageIcon immagine1=new ImageIcon("src\\Images\\1.png");
-    ImageIcon immagine2=new ImageIcon("src\\Images\\2.png");
-    ImageIcon immagine3=new ImageIcon("src\\Images\\3.png");
-    ImageIcon immagine4=new ImageIcon("src\\Images\\4.png");
-    ImageIcon immagine5=new ImageIcon("src\\Images\\5.png");
-    ImageIcon immagine6=new ImageIcon("src\\Images\\6.png");
-    ImageIcon immagine7=new ImageIcon("src\\Images\\7.png");
-    ImageIcon immagine8=new ImageIcon("src\\Images\\8.png");
-    ImageIcon immagine9=new ImageIcon("src\\Images\\9.png");
-    ImageIcon immagine10=new ImageIcon("src\\Images\\10.png");
-    ImageIcon immagine11=new ImageIcon("src\\Images\\11.png");
-    ImageIcon immagine12=new ImageIcon("src\\Images\\12.png");
-    ImageIcon immagine13=new ImageIcon("src\\Images\\13.png");
-    ImageIcon immagine14=new ImageIcon("src\\Images\\14.png");
-    ImageIcon immagine15=new ImageIcon("src\\Images\\15.png");
-    ImageIcon immagine16=new ImageIcon("src\\Images\\16.png");
-    ImageIcon immagine17=new ImageIcon("src\\Images\\17.png");
-    ImageIcon immagine18=new ImageIcon("src\\Images\\18.png");
-    ImageIcon immagine19=new ImageIcon("src\\Images\\19.png");
-    ImageIcon immagine20=new ImageIcon("src\\Images\\20.png");
-    ImageIcon immagine21=new ImageIcon("src\\Images\\21.png");
-    ImageIcon immagine22=new ImageIcon("src\\Images\\22.png");
-    ImageIcon immagine23=new ImageIcon("src\\Images\\23.png");
-    ImageIcon immagine24=new ImageIcon("src\\Images\\24.png");
-    
-    ImageIcon immagine1x=new ImageIcon("src\\Imageswithx\\1.png");
-    ImageIcon immagine2x=new ImageIcon("src\\Imageswithx\\2.png");
-    ImageIcon immagine3x=new ImageIcon("src\\Imageswithx\\3.png");
-    ImageIcon immagine4x=new ImageIcon("src\\Imageswithx\\4.png");
-    ImageIcon immagine5x=new ImageIcon("src\\Imageswithx\\5.png");
-    ImageIcon immagine6x=new ImageIcon("src\\Imageswithx\\6.png");
-    ImageIcon immagine7x=new ImageIcon("src\\Imageswithx\\7.png");
-    ImageIcon immagine8x=new ImageIcon("src\\Imageswithx\\8.png");
-    ImageIcon immagine9x=new ImageIcon("src\\Imageswithx\\9.png");
-    ImageIcon immagine10x=new ImageIcon("src\\Imageswithx\\10.png");
-    ImageIcon immagine11x=new ImageIcon("src\\Imageswithx\\11.png");
-    ImageIcon immagine12x=new ImageIcon("src\\Imageswithx\\12.png");
-    ImageIcon immagine13x=new ImageIcon("src\\Imageswithx\\13.png");
-    ImageIcon immagine14x=new ImageIcon("src\\Imageswithx\\14.png");
-    ImageIcon immagine15x=new ImageIcon("src\\Imageswithx\\15.png");
-    ImageIcon immagine16x=new ImageIcon("src\\Imageswithx\\16.png");
-    ImageIcon immagine17x=new ImageIcon("src\\Imageswithx\\17.png");
-    ImageIcon immagine18x=new ImageIcon("src\\Imageswithx\\18.png");
-    ImageIcon immagine19x=new ImageIcon("src\\Imageswithx\\19.png");
-    ImageIcon immagine20x=new ImageIcon("src\\Imageswithx\\20.png");
-    ImageIcon immagine21x=new ImageIcon("src\\Imageswithx\\21.png");
-    ImageIcon immagine22x=new ImageIcon("src\\Imageswithx\\22.png");
-    ImageIcon immagine23x=new ImageIcon("src\\Imageswithx\\23.png");
-    ImageIcon immagine24x=new ImageIcon("src\\Imageswithx\\24.png");
-    
-    
-    
-    
+
+    public boolean check1 = true;
+    public boolean check2 = true;
+    public boolean check3 = true;
+    public boolean check4 = true;
+    public boolean check5 = true;
+    public boolean check6 = true;
+    public boolean check7 = true;
+    public boolean check8 = true;
+    public boolean check9 = true;
+    public boolean check10 = true;
+    public boolean check11 = true;
+    public boolean check12 = true;
+    public boolean check13 = true;
+    public boolean check14 = true;
+    public boolean check15 = true;
+    public boolean check16 = true;
+    public boolean check17 = true;
+    public boolean check18 = true;
+    public boolean check19 = true;
+    public boolean check20 = true;
+    public boolean check21 = true;
+    public boolean check22 = true;
+    public boolean check23 = true;
+    public boolean check24 = true;
+    ImageIcon immagine1 = new ImageIcon("src\\Images\\1.png");
+    ImageIcon immagine2 = new ImageIcon("src\\Images\\2.png");
+    ImageIcon immagine3 = new ImageIcon("src\\Images\\3.png");
+    ImageIcon immagine4 = new ImageIcon("src\\Images\\4.png");
+    ImageIcon immagine5 = new ImageIcon("src\\Images\\5.png");
+    ImageIcon immagine6 = new ImageIcon("src\\Images\\6.png");
+    ImageIcon immagine7 = new ImageIcon("src\\Images\\7.png");
+    ImageIcon immagine8 = new ImageIcon("src\\Images\\8.png");
+    ImageIcon immagine9 = new ImageIcon("src\\Images\\9.png");
+    ImageIcon immagine10 = new ImageIcon("src\\Images\\10.png");
+    ImageIcon immagine11 = new ImageIcon("src\\Images\\11.png");
+    ImageIcon immagine12 = new ImageIcon("src\\Images\\12.png");
+    ImageIcon immagine13 = new ImageIcon("src\\Images\\13.png");
+    ImageIcon immagine14 = new ImageIcon("src\\Images\\14.png");
+    ImageIcon immagine15 = new ImageIcon("src\\Images\\15.png");
+    ImageIcon immagine16 = new ImageIcon("src\\Images\\16.png");
+    ImageIcon immagine17 = new ImageIcon("src\\Images\\17.png");
+    ImageIcon immagine18 = new ImageIcon("src\\Images\\18.png");
+    ImageIcon immagine19 = new ImageIcon("src\\Images\\19.png");
+    ImageIcon immagine20 = new ImageIcon("src\\Images\\20.png");
+    ImageIcon immagine21 = new ImageIcon("src\\Images\\21.png");
+    ImageIcon immagine22 = new ImageIcon("src\\Images\\22.png");
+    ImageIcon immagine23 = new ImageIcon("src\\Images\\23.png");
+    ImageIcon immagine24 = new ImageIcon("src\\Images\\24.png");
+
+    ImageIcon immagine1x = new ImageIcon("src\\Imageswithx\\1.png");
+    ImageIcon immagine2x = new ImageIcon("src\\Imageswithx\\2.png");
+    ImageIcon immagine3x = new ImageIcon("src\\Imageswithx\\3.png");
+    ImageIcon immagine4x = new ImageIcon("src\\Imageswithx\\4.png");
+    ImageIcon immagine5x = new ImageIcon("src\\Imageswithx\\5.png");
+    ImageIcon immagine6x = new ImageIcon("src\\Imageswithx\\6.png");
+    ImageIcon immagine7x = new ImageIcon("src\\Imageswithx\\7.png");
+    ImageIcon immagine8x = new ImageIcon("src\\Imageswithx\\8.png");
+    ImageIcon immagine9x = new ImageIcon("src\\Imageswithx\\9.png");
+    ImageIcon immagine10x = new ImageIcon("src\\Imageswithx\\10.png");
+    ImageIcon immagine11x = new ImageIcon("src\\Imageswithx\\11.png");
+    ImageIcon immagine12x = new ImageIcon("src\\Imageswithx\\12.png");
+    ImageIcon immagine13x = new ImageIcon("src\\Imageswithx\\13.png");
+    ImageIcon immagine14x = new ImageIcon("src\\Imageswithx\\14.png");
+    ImageIcon immagine15x = new ImageIcon("src\\Imageswithx\\15.png");
+    ImageIcon immagine16x = new ImageIcon("src\\Imageswithx\\16.png");
+    ImageIcon immagine17x = new ImageIcon("src\\Imageswithx\\17.png");
+    ImageIcon immagine18x = new ImageIcon("src\\Imageswithx\\18.png");
+    ImageIcon immagine19x = new ImageIcon("src\\Imageswithx\\19.png");
+    ImageIcon immagine20x = new ImageIcon("src\\Imageswithx\\20.png");
+    ImageIcon immagine21x = new ImageIcon("src\\Imageswithx\\21.png");
+    ImageIcon immagine22x = new ImageIcon("src\\Imageswithx\\22.png");
+    ImageIcon immagine23x = new ImageIcon("src\\Imageswithx\\23.png");
+    ImageIcon immagine24x = new ImageIcon("src\\Imageswithx\\24.png");
+
     /**
      * Creates new form MainFrame
      */
@@ -124,71 +122,76 @@ public class MainFrame extends javax.swing.JFrame {
     UtilPacchetto up;
 
     public MainFrame() throws SocketException, UnknownHostException {
-        initComponents();
-        image1.setIcon(immagine1);
-        image2.setIcon(immagine2);
-        image3.setIcon(immagine3);
-        image4.setIcon(immagine4);
-        image5.setIcon(immagine5);
-        image6.setIcon(immagine6);
-        image7.setIcon(immagine7);
-        image8.setIcon(immagine8);
-        image9.setIcon(immagine9);
-        image10.setIcon(immagine10);
-        image11.setIcon(immagine11);
-        image12.setIcon(immagine12);
-        image13.setIcon(immagine13);
-        image14.setIcon(immagine14);
-        image15.setIcon(immagine15);
-        image16.setIcon(immagine16);
-        image17.setIcon(immagine17);
-        image18.setIcon(immagine18);
-        image19.setIcon(immagine19);
-        image20.setIcon(immagine20);
-        image21.setIcon(immagine21);
-        image22.setIcon(immagine22);
-        image23.setIcon(immagine23);
-        image24.setIcon(immagine24);
-        image1.setText("");
-        image2.setText("");
-        image3.setText("");
-        image4.setText("");
-        image5.setText("");
-        image6.setText("");
-        image7.setText("");
-        image8.setText("");
-        image9.setText("");
-        image10.setText("");
-        image11.setText("");
-        image12.setText("");
-        image13.setText("");
-        image14.setText("");
-        image15.setText("");
-        image16.setText("");
-        image17.setText("");
-        image18.setText("");
-        image19.setText("");
-        image20.setText("");
-        image21.setText("");
-        image22.setText("");
-        image23.setText("");
-        image24.setText("");
-        c = Condivisa.getInstance();
-        c.setFrame(this);
-        this.setTitle("INDOVINA CHI");
         String s = (String) JOptionPane.showInputDialog(
                 this,
                 "Inserire username giocatore\n",
                 "Login Dialog",
                 JOptionPane.PLAIN_MESSAGE
-                
         );
-        c.nome = s;
-        System.out.println("NOME: " + s);
-        panel.setLayout(new GridBagLayout());
-        panel.setDoubleBuffered(true);
-        up = new UtilPacchetto(port, "");
-        getContentPane().setBackground(Color.YELLOW);
+
+        if (s != null && !s.equals("")) {
+            initComponents();
+            image1.setIcon(immagine1);
+            image2.setIcon(immagine2);
+            image3.setIcon(immagine3);
+            image4.setIcon(immagine4);
+            image5.setIcon(immagine5);
+            image6.setIcon(immagine6);
+            image7.setIcon(immagine7);
+            image8.setIcon(immagine8);
+            image9.setIcon(immagine9);
+            image10.setIcon(immagine10);
+            image11.setIcon(immagine11);
+            image12.setIcon(immagine12);
+            image13.setIcon(immagine13);
+            image14.setIcon(immagine14);
+            image15.setIcon(immagine15);
+            image16.setIcon(immagine16);
+            image17.setIcon(immagine17);
+            image18.setIcon(immagine18);
+            image19.setIcon(immagine19);
+            image20.setIcon(immagine20);
+            image21.setIcon(immagine21);
+            image22.setIcon(immagine22);
+            image23.setIcon(immagine23);
+            image24.setIcon(immagine24);
+            image1.setText("");
+            image2.setText("");
+            image3.setText("");
+            image4.setText("");
+            image5.setText("");
+            image6.setText("");
+            image7.setText("");
+            image8.setText("");
+            image9.setText("");
+            image10.setText("");
+            image11.setText("");
+            image12.setText("");
+            image13.setText("");
+            image14.setText("");
+            image15.setText("");
+            image16.setText("");
+            image17.setText("");
+            image18.setText("");
+            image19.setText("");
+            image20.setText("");
+            image21.setText("");
+            image22.setText("");
+            image23.setText("");
+            image24.setText("");
+            c = Condivisa.getInstance();
+            c.setFrame(this);
+            this.setTitle("INDOVINA CHI");
+
+            c.nome = s;
+            System.out.println("NOME: " + s);
+            panel.setLayout(new GridBagLayout());
+            panel.setDoubleBuffered(true);
+            up = new UtilPacchetto(port, "");
+            getContentPane().setBackground(Color.YELLOW);
+        } else {
+            System.exit(0);
+        }
 
     }
 
@@ -235,6 +238,7 @@ public class MainFrame extends javax.swing.JFrame {
         image23 = new javax.swing.JLabel();
         image24 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+        jButton5 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(240, 240, 245));
@@ -481,6 +485,15 @@ public class MainFrame extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/guesswho.png"))); // NOI18N
 
+        jButton5.setForeground(new java.awt.Color(102, 204, 0));
+        jButton5.setText("PRONTO");
+        jButton5.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 204, 0), 2, true));
+        jButton5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton5MouseClicked(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -545,24 +558,25 @@ public class MainFrame extends javax.swing.JFrame {
                                     .addComponent(image12, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 231, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jScrollPane2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 646, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(jScrollPane2)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jScrollPane1)))
                 .addGap(36, 36, 36)
-                .addComponent(Logo)
-                .addGap(0, 0, 0))
+                .addComponent(Logo))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -573,58 +587,59 @@ public class MainFrame extends javax.swing.JFrame {
                         .addComponent(Logo, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(image6)
+                            .addComponent(image5)
+                            .addComponent(image4)
+                            .addComponent(image3)
+                            .addComponent(image2)
+                            .addComponent(image1))
+                        .addGap(4, 4, 4)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(image7)
+                            .addComponent(image8)
+                            .addComponent(image9)
+                            .addComponent(image10)
+                            .addComponent(image11)
+                            .addComponent(image12))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(image13)
+                            .addComponent(image14)
+                            .addComponent(image15)
+                            .addComponent(image16)
+                            .addComponent(image17)
+                            .addComponent(image18))
+                        .addGap(3, 3, 3)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(image19)
+                            .addComponent(image20)
+                            .addComponent(image21)
+                            .addComponent(image22)
+                            .addComponent(image23)
+                            .addComponent(image24))
+                        .addGap(60, 60, 60))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 426, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(12, 12, 12)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(image6)
-                                    .addComponent(image5)
-                                    .addComponent(image4)
-                                    .addComponent(image3)
-                                    .addComponent(image2)
-                                    .addComponent(image1))
-                                .addGap(4, 4, 4)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(image7)
-                                    .addComponent(image8)
-                                    .addComponent(image9)
-                                    .addComponent(image10)
-                                    .addComponent(image11)
-                                    .addComponent(image12))
+                                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(image13)
-                                    .addComponent(image14)
-                                    .addComponent(image15)
-                                    .addComponent(image16)
-                                    .addComponent(image17)
-                                    .addComponent(image18))
-                                .addGap(3, 3, 3)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(image19)
-                                    .addComponent(image20)
-                                    .addComponent(image21)
-                                    .addComponent(image22)
-                                    .addComponent(image23)
-                                    .addComponent(image24)))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 426, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(12, 12, 12)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addGap(60, 60, 60))))
+                                .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(31, 31, 31))))
         );
 
         jScrollPane1.getAccessibleContext().setAccessibleName("");
@@ -681,7 +696,7 @@ public class MainFrame extends javax.swing.JFrame {
             try {
                 Condivisa.connesso = false;
                 Gestione gp = new Gestione();
-               String ipname = Gestione.connectedIP.getHostAddress();
+                String ipname = Gestione.connectedIP.getHostAddress();
                 String str = "c;";
                 up.setIPclient(ipname);
                 up.UDP_send(str);
@@ -707,290 +722,242 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void image1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image1MouseClicked
-        if(check1==true)
-        {
-        image1.setIcon(immagine1x);   
-        check1=false;
-        }else if(check1==false)
-        {
-        image1.setIcon(immagine1);   
-        check1=true;
+        if (check1 == true) {
+            image1.setIcon(immagine1x);
+            check1 = false;
+        } else if (check1 == false) {
+            image1.setIcon(immagine1);
+            check1 = true;
         }
     }//GEN-LAST:event_image1MouseClicked
 
     private void image2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image2MouseClicked
-        if(check2==true)
-        {
-        image2.setIcon(immagine2x);   
-        check2=false;
-        }else if(check2==false)
-        {
-        image2.setIcon(immagine2);   
-        check2=true;
+        if (check2 == true) {
+            image2.setIcon(immagine2x);
+            check2 = false;
+        } else if (check2 == false) {
+            image2.setIcon(immagine2);
+            check2 = true;
         }
     }//GEN-LAST:event_image2MouseClicked
 
     private void image3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image3MouseClicked
-        if(check3==true)
-        {
-        image3.setIcon(immagine3x);   
-        check3=false;
-        }else if(check3==false)
-        {
-        image3.setIcon(immagine3);   
-        check3=true;
+        if (check3 == true) {
+            image3.setIcon(immagine3x);
+            check3 = false;
+        } else if (check3 == false) {
+            image3.setIcon(immagine3);
+            check3 = true;
         }
     }//GEN-LAST:event_image3MouseClicked
 
     private void image4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image4MouseClicked
-        if(check4==true)
-        {
-        image4.setIcon(immagine4x);   
-        check4=false;
-        }else if(check4==false)
-        {
-        image4.setIcon(immagine4);   
-        check4=true;
+        if (check4 == true) {
+            image4.setIcon(immagine4x);
+            check4 = false;
+        } else if (check4 == false) {
+            image4.setIcon(immagine4);
+            check4 = true;
         }
     }//GEN-LAST:event_image4MouseClicked
 
     private void image5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image5MouseClicked
-        if(check5==true)
-        {
-        image5.setIcon(immagine5x);   
-        check5=false;
-        }else if(check5==false)
-        {
-        image5.setIcon(immagine5);   
-        check5=true;
+        if (check5 == true) {
+            image5.setIcon(immagine5x);
+            check5 = false;
+        } else if (check5 == false) {
+            image5.setIcon(immagine5);
+            check5 = true;
         }
     }//GEN-LAST:event_image5MouseClicked
 
     private void image6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image6MouseClicked
-        if(check6==true)
-        {
-        image6.setIcon(immagine6x);   
-        check6=false;
-        }else if(check6==false)
-        {
-        image6.setIcon(immagine6);   
-        check6=true;
+        if (check6 == true) {
+            image6.setIcon(immagine6x);
+            check6 = false;
+        } else if (check6 == false) {
+            image6.setIcon(immagine6);
+            check6 = true;
         }
     }//GEN-LAST:event_image6MouseClicked
 
     private void image7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image7MouseClicked
-        if(check7==true)
-        {
-        image7.setIcon(immagine7x);   
-        check7=false;
-        }else if(check7==false)
-        {
-        image7.setIcon(immagine7);   
-        check7=true;
+        if (check7 == true) {
+            image7.setIcon(immagine7x);
+            check7 = false;
+        } else if (check7 == false) {
+            image7.setIcon(immagine7);
+            check7 = true;
         }
     }//GEN-LAST:event_image7MouseClicked
 
     private void image8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image8MouseClicked
-        if(check8==true)
-        {
-        image8.setIcon(immagine8x);   
-        check8=false;
-        }else if(check8==false)
-        {
-        image8.setIcon(immagine8);   
-        check8=true;
+        if (check8 == true) {
+            image8.setIcon(immagine8x);
+            check8 = false;
+        } else if (check8 == false) {
+            image8.setIcon(immagine8);
+            check8 = true;
         }
     }//GEN-LAST:event_image8MouseClicked
 
     private void image9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image9MouseClicked
-        if(check9==true)
-        {
-        image9.setIcon(immagine9x);   
-        check9=false;
-        }else if(check9==false)
-        {
-        image9.setIcon(immagine9);   
-        check9=true;
+        if (check9 == true) {
+            image9.setIcon(immagine9x);
+            check9 = false;
+        } else if (check9 == false) {
+            image9.setIcon(immagine9);
+            check9 = true;
         }
     }//GEN-LAST:event_image9MouseClicked
 
     private void image10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image10MouseClicked
-        if(check10==true)
-        {
-        image10.setIcon(immagine10x);   
-        check10=false;
-        }else if(check10==false)
-        {
-        image10.setIcon(immagine10);   
-        check10=true;
+        if (check10 == true) {
+            image10.setIcon(immagine10x);
+            check10 = false;
+        } else if (check10 == false) {
+            image10.setIcon(immagine10);
+            check10 = true;
         }
     }//GEN-LAST:event_image10MouseClicked
 
     private void image11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image11MouseClicked
-        if(check11==true)
-        {
-        image11.setIcon(immagine11x);   
-        check11=false;
-        }else if(check1==false)
-        {
-        image11.setIcon(immagine11);   
-        check11=true;
+        if (check11 == true) {
+            image11.setIcon(immagine11x);
+            check11 = false;
+        } else if (check1 == false) {
+            image11.setIcon(immagine11);
+            check11 = true;
         }
     }//GEN-LAST:event_image11MouseClicked
 
     private void image12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image12MouseClicked
-        if(check12==true)
-        {
-        image12.setIcon(immagine12x);   
-        check12=false;
-        }else if(check12==false)
-        {
-        image12.setIcon(immagine12);   
-        check12=true;
+        if (check12 == true) {
+            image12.setIcon(immagine12x);
+            check12 = false;
+        } else if (check12 == false) {
+            image12.setIcon(immagine12);
+            check12 = true;
         }
     }//GEN-LAST:event_image12MouseClicked
 
     private void image13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image13MouseClicked
-        if(check13==true)
-        {
-        image13.setIcon(immagine13x);   
-        check13=false;
-        }else if(check13==false)
-        {
-        image13.setIcon(immagine13);   
-        check13=true;
+        if (check13 == true) {
+            image13.setIcon(immagine13x);
+            check13 = false;
+        } else if (check13 == false) {
+            image13.setIcon(immagine13);
+            check13 = true;
         }
     }//GEN-LAST:event_image13MouseClicked
 
     private void image14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image14MouseClicked
-        if(check14==true)
-        {
-        image14.setIcon(immagine14x);   
-        check14=false;
-        }else if(check14==false)
-        {
-        image14.setIcon(immagine14);   
-        check14=true;
+        if (check14 == true) {
+            image14.setIcon(immagine14x);
+            check14 = false;
+        } else if (check14 == false) {
+            image14.setIcon(immagine14);
+            check14 = true;
         }
     }//GEN-LAST:event_image14MouseClicked
 
     private void image15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image15MouseClicked
-        if(check15==true)
-        {
-        image15.setIcon(immagine15x);   
-        check15=false;
-        }else if(check15==false)
-        {
-        image15.setIcon(immagine15);   
-        check15=true;
+        if (check15 == true) {
+            image15.setIcon(immagine15x);
+            check15 = false;
+        } else if (check15 == false) {
+            image15.setIcon(immagine15);
+            check15 = true;
         }
     }//GEN-LAST:event_image15MouseClicked
 
     private void image16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image16MouseClicked
-        if(check16==true)
-        {
-        image16.setIcon(immagine16x);   
-        check16=false;
-        }else if(check16==false)
-        {
-        image16.setIcon(immagine16);   
-        check16=true;
+        if (check16 == true) {
+            image16.setIcon(immagine16x);
+            check16 = false;
+        } else if (check16 == false) {
+            image16.setIcon(immagine16);
+            check16 = true;
         }
     }//GEN-LAST:event_image16MouseClicked
 
     private void image17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image17MouseClicked
-        if(check17==true)
-        {
-        image17.setIcon(immagine17x);   
-        check17=false;
-        }else if(check17==false)
-        {
-        image17.setIcon(immagine17);   
-        check17=true;
+        if (check17 == true) {
+            image17.setIcon(immagine17x);
+            check17 = false;
+        } else if (check17 == false) {
+            image17.setIcon(immagine17);
+            check17 = true;
         }
     }//GEN-LAST:event_image17MouseClicked
 
     private void image18MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image18MouseClicked
-        if(check18==true)
-        {
-        image18.setIcon(immagine18x);   
-        check18=false;
-        }else if(check18==false)
-        {
-        image18.setIcon(immagine18);   
-        check18=true;
+        if (check18 == true) {
+            image18.setIcon(immagine18x);
+            check18 = false;
+        } else if (check18 == false) {
+            image18.setIcon(immagine18);
+            check18 = true;
         }
     }//GEN-LAST:event_image18MouseClicked
 
     private void image19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image19MouseClicked
-        if(check19==true)
-        {
-        image19.setIcon(immagine19x);   
-        check19=false;
-        }else if(check19==false)
-        {
-        image19.setIcon(immagine19);   
-        check19=true;
+        if (check19 == true) {
+            image19.setIcon(immagine19x);
+            check19 = false;
+        } else if (check19 == false) {
+            image19.setIcon(immagine19);
+            check19 = true;
         }
     }//GEN-LAST:event_image19MouseClicked
 
     private void image20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image20MouseClicked
-        if(check20==true)
-        {
-        image20.setIcon(immagine20x);   
-        check20=false;
-        }else if(check20==false)
-        {
-        image20.setIcon(immagine20);   
-        check20=true;
+        if (check20 == true) {
+            image20.setIcon(immagine20x);
+            check20 = false;
+        } else if (check20 == false) {
+            image20.setIcon(immagine20);
+            check20 = true;
         }
     }//GEN-LAST:event_image20MouseClicked
 
     private void image21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image21MouseClicked
-        if(check21==true)
-        {
-        image21.setIcon(immagine21x);   
-        check21=false;
-        }else if(check21==false)
-        {
-        image21.setIcon(immagine21);   
-        check21=true;
+        if (check21 == true) {
+            image21.setIcon(immagine21x);
+            check21 = false;
+        } else if (check21 == false) {
+            image21.setIcon(immagine21);
+            check21 = true;
         }
     }//GEN-LAST:event_image21MouseClicked
 
     private void image22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image22MouseClicked
-        if(check22==true)
-        {
-        image22.setIcon(immagine22x);   
-        check22=false;
-        }else if(check22==false)
-        {
-        image22.setIcon(immagine22);   
-        check22=true;
+        if (check22 == true) {
+            image22.setIcon(immagine22x);
+            check22 = false;
+        } else if (check22 == false) {
+            image22.setIcon(immagine22);
+            check22 = true;
         }
     }//GEN-LAST:event_image22MouseClicked
 
     private void image23MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image23MouseClicked
-        if(check23==true)
-        {
-        image23.setIcon(immagine23x);   
-        check23=false;
-        }else if(check23==false)
-        {
-        image23.setIcon(immagine23);   
-        check23=true;
+        if (check23 == true) {
+            image23.setIcon(immagine23x);
+            check23 = false;
+        } else if (check23 == false) {
+            image23.setIcon(immagine23);
+            check23 = true;
         }
     }//GEN-LAST:event_image23MouseClicked
 
     private void image24MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image24MouseClicked
-        if(check24==true)
-        {
-        image24.setIcon(immagine24x);   
-        check24=false;
-        }else if(check24==false)
-        {
-        image24.setIcon(immagine24);   
-        check24=true;
+        if (check24 == true) {
+            image24.setIcon(immagine24x);
+            check24 = false;
+        } else if (check24 == false) {
+            image24.setIcon(immagine24);
+            check24 = true;
         }
     }//GEN-LAST:event_image24MouseClicked
 
@@ -1019,7 +986,36 @@ public class MainFrame extends javax.swing.JFrame {
         panel.add(text, gc);
         jScrollPane1.getViewport().add(panel);
     }//GEN-LAST:event_jButton2MouseClicked
-    
+
+    private void jButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseClicked
+        // TODO add your handling code here:
+
+        if (Condivisa.connesso) {
+            if (Condivisa.connesso) {
+                try {
+                    Condivisa.connesso = false;
+                    Gestione gp = new Gestione();
+                    String ipname = Gestione.connectedIP.getHostAddress();
+                    String str = "p;";
+                    up.setIPclient(ipname);
+                    up.UDP_send(str);
+                    gp.connectedIP = null;
+                    if (c.pronto && c.prontoDest) {
+                        String[] opt = {"OK", "ANNULLA"};
+                        int choice = JOptionPane.showOptionDialog(this, "Il gioco ha inizio", null, JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, opt, opt[1]);
+                    }
+                } catch (SocketException ex) {
+                    Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                } catch (UnknownHostException ex) {
+                    Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                } catch (IOException ex) {
+                    Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+
+        }
+    }//GEN-LAST:event_jButton5MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -1055,7 +1051,6 @@ public class MainFrame extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-      
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
 
@@ -1104,7 +1099,7 @@ public class MainFrame extends javax.swing.JFrame {
             c.messaggio = "";
         }
         if (!c.destinatario.equals("")) {
-            TitledBorder border = new TitledBorder(c.destinatario);
+            TitledBorder border = new TitledBorder(c.destinatario + " VS " + c.nome);
             border.setTitleJustification(TitledBorder.CENTER);
             jScrollPane1.setBorder(border);
             this.revalidate();
@@ -1141,6 +1136,7 @@ public class MainFrame extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
