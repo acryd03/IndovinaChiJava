@@ -32,6 +32,7 @@ import javax.swing.border.Border;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.colorchooser.AbstractColorChooserPanel;
+import javax.swing.plaf.ColorUIResource;
 
 /**
  *
@@ -176,20 +177,19 @@ public class MainFrame extends javax.swing.JFrame {
         c = Condivisa.getInstance();
         c.setFrame(this);
         this.setTitle("INDOVINA CHI");
+        UIManager UI = new UIManager();
+
         String s = (String) JOptionPane.showInputDialog(
                 this,
                 "Inserire username giocatore\n",
-                "Login Dialog",
+                "Login",
                 JOptionPane.PLAIN_MESSAGE
-                
         );
+        
         c.nome = s;
         System.out.println("NOME: " + s);
-        panel.setLayout(new GridBagLayout());
-        panel.setDoubleBuffered(true);
-        up = new UtilPacchetto(port, "");
-        getContentPane().setBackground(Color.YELLOW);
 
+        
     }
 
     /**
@@ -289,6 +289,10 @@ public class MainFrame extends javax.swing.JFrame {
         jButton3.setBackground(new java.awt.Color(255, 255, 255));
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 51, 51));
+<<<<<<< Updated upstream
+=======
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/disconnetto.png"))); // NOI18N
+>>>>>>> Stashed changes
         jButton3.setText("ESCI");
         jButton3.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 51, 51), 2, true));
         jButton3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -297,9 +301,18 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< Updated upstream
         jButton4.setBackground(new java.awt.Color(255, 255, 255));
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jButton4.setForeground(new java.awt.Color(51, 102, 255));
+=======
+        Logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/guesswho.png"))); // NOI18N
+
+        jButton4.setBackground(new java.awt.Color(255, 255, 255));
+        jButton4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(51, 102, 255));
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/next tourn.png"))); // NOI18N
+>>>>>>> Stashed changes
         jButton4.setText("PASSA TURNO");
         jButton4.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(51, 102, 255), 2, true));
         jButton4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -668,28 +681,28 @@ public class MainFrame extends javax.swing.JFrame {
 
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
         // TODO add your handling code here:
-            try {
-                String ipname = Gestione.connectedIP.getHostAddress();
-                String str = "m;" + jTextArea1.getText() + ";";
-                up.setIPclient(ipname);
-                up.UDP_send(str);
-            } catch (SocketException ex) {
-                Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
-            } catch (UnknownHostException ex) {
-                Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
-            } catch (IOException ex) {
-                Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
-            }
-            JTextArea text = new JTextArea(1, 20);
-            text.setEditable(false);
-            text.setLineWrap(true);
-            text.setText(jTextArea1.getText());
-            gc.gridx = 1;
-            gc.gridy = y;
-            y++;
+        try {
+            String ipname = Gestione.connectedIP.getHostAddress();
+            String str = "m;" + jTextArea1.getText() + ";";
+            up.setIPclient(ipname);
+            up.UDP_send(str);
+        } catch (SocketException ex) {
+            Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (UnknownHostException ex) {
+            Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        JTextArea text = new JTextArea(1, 20);
+        text.setEditable(false);
+        text.setLineWrap(true);
+        text.setText(jTextArea1.getText());
+        gc.gridx = 1;
+        gc.gridy = y;
+        y++;
 
-            panel.add(text, gc);
-            jScrollPane1.getViewport().add(panel);
+        panel.add(text, gc);
+        jScrollPane1.getViewport().add(panel);
 
     }//GEN-LAST:event_jButton2MouseClicked
 
@@ -699,7 +712,7 @@ public class MainFrame extends javax.swing.JFrame {
             try {
                 Condivisa.connesso = false;
                 Gestione gp = new Gestione();
-               String ipname = Gestione.connectedIP.getHostAddress();
+                String ipname = Gestione.connectedIP.getHostAddress();
                 String str = "c;";
                 up.setIPclient(ipname);
                 up.UDP_send(str);
@@ -1043,7 +1056,6 @@ public class MainFrame extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-      
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
 
