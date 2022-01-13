@@ -19,6 +19,7 @@ public class Condivisa {
     static boolean connesso = false;
     String destinatario;
     JFrame frame;
+    MainFrame mainframe;
     String nome;
     String messaggio;
     static Condivisa instance=null;

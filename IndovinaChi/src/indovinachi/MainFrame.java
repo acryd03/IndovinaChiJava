@@ -42,7 +42,10 @@ import javax.swing.colorchooser.AbstractColorChooserPanel;
  * @author User
  */
 public class MainFrame extends javax.swing.JFrame {
-
+    public String rimozioneSu="s;";
+    public String rimozioneGiu="g;";
+    public String rimozioneSuAvversario="";
+    public String rimozioneGiuAvversario="";
     List listaImmagini=new ArrayList();
     public boolean check1 = true;
     public boolean check2 = true;
@@ -118,6 +121,9 @@ public class MainFrame extends javax.swing.JFrame {
     ImageIcon immagine22x = new ImageIcon("src\\Imageswithx\\22.png");
     ImageIcon immagine23x = new ImageIcon("src\\Imageswithx\\23.png");
     ImageIcon immagine24x = new ImageIcon("src\\Imageswithx\\24.png");
+    
+    ImageIcon avversario = new ImageIcon("src\\imageAvversario\\avversario.png");
+    ImageIcon avversarioRimosso = new ImageIcon("src\\imageAvversario\\avversarioRimosso.png");
     
     ImageIcon randomButton = new ImageIcon("src\\ImageRandom\\randomButton.png");
 
@@ -211,8 +217,61 @@ public class MainFrame extends javax.swing.JFrame {
             image22.setText("");
             image23.setText("");
             image24.setText("");
+            
             imageMain.setText("");
             imageMain.setIcon(randomButton);
+            
+            avversario1.setIcon(avversario);
+            avversario2.setIcon(avversario);
+            avversario3.setIcon(avversario);
+            avversario4.setIcon(avversario);
+            avversario5.setIcon(avversario);
+            avversario6.setIcon(avversario);
+            avversario7.setIcon(avversario);
+            avversario8.setIcon(avversario);
+            avversario9.setIcon(avversario);
+            avversario10.setIcon(avversario);
+            avversario11.setIcon(avversario);
+            avversario12.setIcon(avversario);
+            avversario13.setIcon(avversario);
+            avversario14.setIcon(avversario);
+            avversario15.setIcon(avversario);
+            avversario16.setIcon(avversario);
+            avversario17.setIcon(avversario);
+            avversario18.setIcon(avversario);
+            avversario19.setIcon(avversario);
+            avversario20.setIcon(avversario);
+            avversario21.setIcon(avversario);
+            avversario22.setIcon(avversario);
+            avversario23.setIcon(avversario);
+            avversario24.setIcon(avversario);
+            avversario1.setText("");
+            avversario2.setText("");
+            avversario3.setText("");
+            avversario4.setText("");
+            avversario5.setText("");
+            avversario6.setText("");
+            avversario7.setText("");
+            avversario8.setText("");
+            avversario9.setText("");
+            avversario10.setText("");
+            avversario11.setText("");
+            avversario12.setText("");
+            avversario13.setText("");
+            avversario14.setText("");
+            avversario15.setText("");
+            avversario16.setText("");
+            avversario17.setText("");
+            avversario18.setText("");
+            avversario19.setText("");
+            avversario20.setText("");
+            avversario21.setText("");
+            avversario22.setText("");
+            avversario23.setText("");
+            avversario24.setText("");
+            
+            
+            
             c = Condivisa.getInstance();
             c.setFrame(this);
             this.setTitle("INDOVINA CHI");
@@ -227,6 +286,8 @@ public class MainFrame extends javax.swing.JFrame {
             System.exit(0);
         }
 
+            
+        
     }
 
     /**
@@ -274,6 +335,30 @@ public class MainFrame extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jButton5 = new javax.swing.JButton();
         imageMain = new javax.swing.JLabel();
+        avversario12 = new javax.swing.JLabel();
+        avversario13 = new javax.swing.JLabel();
+        avversario14 = new javax.swing.JLabel();
+        avversario15 = new javax.swing.JLabel();
+        avversario16 = new javax.swing.JLabel();
+        avversario17 = new javax.swing.JLabel();
+        avversario18 = new javax.swing.JLabel();
+        avversario19 = new javax.swing.JLabel();
+        avversario20 = new javax.swing.JLabel();
+        avversario21 = new javax.swing.JLabel();
+        avversario22 = new javax.swing.JLabel();
+        avversario1 = new javax.swing.JLabel();
+        avversario23 = new javax.swing.JLabel();
+        avversario3 = new javax.swing.JLabel();
+        avversario24 = new javax.swing.JLabel();
+        avversario2 = new javax.swing.JLabel();
+        avversario4 = new javax.swing.JLabel();
+        avversario5 = new javax.swing.JLabel();
+        avversario6 = new javax.swing.JLabel();
+        avversario7 = new javax.swing.JLabel();
+        avversario8 = new javax.swing.JLabel();
+        avversario9 = new javax.swing.JLabel();
+        avversario10 = new javax.swing.JLabel();
+        avversario11 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(240, 240, 245));
@@ -536,71 +621,299 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        avversario12.setText("jLabel12");
+        avversario12.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario12MouseClicked(evt);
+            }
+        });
+
+        avversario13.setText("jLabel13");
+        avversario13.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario13MouseClicked(evt);
+            }
+        });
+
+        avversario14.setText("jLabel14");
+        avversario14.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario14MouseClicked(evt);
+            }
+        });
+
+        avversario15.setText("jLabel15");
+        avversario15.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario15MouseClicked(evt);
+            }
+        });
+
+        avversario16.setText("jLabel16");
+        avversario16.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario16MouseClicked(evt);
+            }
+        });
+
+        avversario17.setText("jLabel17");
+        avversario17.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario17MouseClicked(evt);
+            }
+        });
+
+        avversario18.setText("jLabel18");
+        avversario18.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario18MouseClicked(evt);
+            }
+        });
+
+        avversario19.setText("jLabel19");
+        avversario19.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario19MouseClicked(evt);
+            }
+        });
+
+        avversario20.setText("jLabel20");
+        avversario20.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario20MouseClicked(evt);
+            }
+        });
+
+        avversario21.setText("jLabel21");
+        avversario21.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario21MouseClicked(evt);
+            }
+        });
+
+        avversario22.setText("jLabel22");
+        avversario22.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario22MouseClicked(evt);
+            }
+        });
+
+        avversario1.setText("jLabel1");
+        avversario1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario1MouseClicked(evt);
+            }
+        });
+
+        avversario23.setText("jLabel23");
+        avversario23.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario23MouseClicked(evt);
+            }
+        });
+
+        avversario3.setText("jLabel2");
+        avversario3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario3MouseClicked(evt);
+            }
+        });
+
+        avversario24.setText("jLabel24");
+        avversario24.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario24MouseClicked(evt);
+            }
+        });
+
+        avversario2.setText("jLabel3");
+        avversario2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario2MouseClicked(evt);
+            }
+        });
+
+        avversario4.setText("jLabel4");
+        avversario4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario4MouseClicked(evt);
+            }
+        });
+
+        avversario5.setText("jLabel5");
+        avversario5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario5MouseClicked(evt);
+            }
+        });
+
+        avversario6.setText("jLabel6");
+        avversario6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario6MouseClicked(evt);
+            }
+        });
+
+        avversario7.setText("jLabel7");
+        avversario7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario7MouseClicked(evt);
+            }
+        });
+
+        avversario8.setText("jLabel8");
+        avversario8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario8MouseClicked(evt);
+            }
+        });
+
+        avversario9.setText("jLabel9");
+        avversario9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario9MouseClicked(evt);
+            }
+        });
+
+        avversario10.setText("jLabel10");
+        avversario10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario10MouseClicked(evt);
+            }
+        });
+
+        avversario11.setText("jLabel11");
+        avversario11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                avversario11MouseClicked(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(image13, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(image14, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(image15, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(image16, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(image19, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(image20, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(image21, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(image22, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(2, 2, 2))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(image7, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(image8, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(image9, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(image10, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(image1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(image2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(image3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(image4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(image17, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(image13, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(image18, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(image14, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(image15, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(image16, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(image11, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(image5, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(image19, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(image20, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(image21, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(image22, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(2, 2, 2))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addComponent(image7, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(image8, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(image9, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                .addComponent(image10, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addComponent(image1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(image2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(image3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(image4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(image12, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(image6, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(image17, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(image18, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(image11, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(image5, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(image12, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(image6, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(image23, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(image24, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(43, 43, 43)
+                                        .addComponent(imageMain, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                        .addGap(85, 85, 85))
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(image23, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(avversario13, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(image24, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(43, 43, 43)
-                                .addComponent(imageMain, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addGap(85, 85, 85)
+                                .addComponent(avversario14, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(avversario15, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(avversario16, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(avversario19, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(avversario20, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(avversario21, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(avversario22, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(2, 2, 2))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addComponent(avversario7, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(avversario8, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(avversario9, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                .addComponent(avversario10, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addComponent(avversario1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(avversario2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(avversario3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(avversario4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(avversario17, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(avversario18, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(avversario11, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(avversario5, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(avversario12, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(avversario6, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(avversario23, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(avversario24, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
@@ -630,7 +943,39 @@ public class MainFrame extends javax.swing.JFrame {
                         .addComponent(Logo, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGap(59, 59, 59)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(avversario6)
+                            .addComponent(avversario5)
+                            .addComponent(avversario4)
+                            .addComponent(avversario3)
+                            .addComponent(avversario2)
+                            .addComponent(avversario1))
+                        .addGap(4, 4, 4)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(avversario7)
+                            .addComponent(avversario8)
+                            .addComponent(avversario9)
+                            .addComponent(avversario10)
+                            .addComponent(avversario11)
+                            .addComponent(avversario12))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(avversario13)
+                            .addComponent(avversario14)
+                            .addComponent(avversario15)
+                            .addComponent(avversario16)
+                            .addComponent(avversario17)
+                            .addComponent(avversario18))
+                        .addGap(3, 3, 3)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(avversario19)
+                            .addComponent(avversario20)
+                            .addComponent(avversario21)
+                            .addComponent(avversario22)
+                            .addComponent(avversario23)
+                            .addComponent(avversario24))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(image6)
                             .addComponent(image5)
@@ -759,6 +1104,7 @@ public class MainFrame extends javax.swing.JFrame {
 
     private void jButton4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton4MouseClicked
         // TODO add your handling code here:
+        //qua bisogna inviargli la stringa rimozioneSu e rimozioneGiu allavversario e rimetterle come erano prima
     }//GEN-LAST:event_jButton4MouseClicked
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -1007,6 +1353,13 @@ public class MainFrame extends javax.swing.JFrame {
             check1 = true;
         }
         }
+        
+        if(check1==true)
+        {
+            rimozioneSu+="a1,";
+                    }else{
+            rimozioneGiu+="a1,";
+        }
     }//GEN-LAST:event_image1MouseClicked
 
     private void image2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image2MouseClicked
@@ -1250,6 +1603,12 @@ public class MainFrame extends javax.swing.JFrame {
             image2.setIcon(immagine24);
             check2 = true;
         }
+        }
+        if(check2==true)
+        {
+            rimozioneSu+="a2,";
+                    }else{
+            rimozioneGiu+="a2,";
         }
     }//GEN-LAST:event_image2MouseClicked
 
@@ -1495,6 +1854,12 @@ public class MainFrame extends javax.swing.JFrame {
             check3 = true;
         }
         }
+        if(check3==true)
+        {
+            rimozioneSu+="a3,";
+                    }else{
+            rimozioneGiu+="a3,";
+        }
     }//GEN-LAST:event_image3MouseClicked
 
     private void image4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image4MouseClicked
@@ -1738,6 +2103,12 @@ public class MainFrame extends javax.swing.JFrame {
             image4.setIcon(immagine24);
             check4 = true;
         }
+        }
+        if(check4==true)
+        {
+            rimozioneSu+="a4,";
+                    }else{
+            rimozioneGiu+="a4,";
         }
     }//GEN-LAST:event_image4MouseClicked
 
@@ -1983,6 +2354,12 @@ public class MainFrame extends javax.swing.JFrame {
             check5 = true;
         }
         }
+        if(check5==true)
+        {
+            rimozioneSu+="a5,";
+                    }else{
+            rimozioneGiu+="a5,";
+        }
     }//GEN-LAST:event_image5MouseClicked
 
     private void image6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image6MouseClicked
@@ -2226,6 +2603,12 @@ public class MainFrame extends javax.swing.JFrame {
             image6.setIcon(immagine24);
             check6 = true;
         }
+        }
+        if(check6==true)
+        {
+            rimozioneSu+="a6,";
+                    }else{
+            rimozioneGiu+="a6,";
         }
     }//GEN-LAST:event_image6MouseClicked
 
@@ -2471,6 +2854,12 @@ public class MainFrame extends javax.swing.JFrame {
             check7 = true;
         }
         }
+        if(check7==true)
+        {
+            rimozioneSu+="b1,";
+                    }else{
+            rimozioneGiu+="b1,";
+        }
     }//GEN-LAST:event_image7MouseClicked
 
     private void image8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image8MouseClicked
@@ -2714,6 +3103,12 @@ public class MainFrame extends javax.swing.JFrame {
             image8.setIcon(immagine24);
             check8 = true;
         }
+        }
+        if(check8==true)
+        {
+            rimozioneSu+="b2,";
+                    }else{
+            rimozioneGiu+="b2,";
         }
     }//GEN-LAST:event_image8MouseClicked
 
@@ -2959,6 +3354,12 @@ public class MainFrame extends javax.swing.JFrame {
             check9 = true;
         }
         }
+        if(check9==true)
+        {
+            rimozioneSu+="b3,";
+                    }else{
+            rimozioneGiu+="b3,";
+        }
     }//GEN-LAST:event_image9MouseClicked
 
     private void image10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image10MouseClicked
@@ -3202,6 +3603,12 @@ public class MainFrame extends javax.swing.JFrame {
             image10.setIcon(immagine24);
             check10 = true;
         }
+        }
+        if(check10==true)
+        {
+            rimozioneSu+="b4,";
+                    }else{
+            rimozioneGiu+="b4,";
         }
     }//GEN-LAST:event_image10MouseClicked
 
@@ -3447,6 +3854,12 @@ public class MainFrame extends javax.swing.JFrame {
             check11 = true;
         }
         }
+        if(check11==true)
+        {
+            rimozioneSu+="b5,";
+                    }else{
+            rimozioneGiu+="b5,";
+        }
     }//GEN-LAST:event_image11MouseClicked
 
     private void image12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image12MouseClicked
@@ -3690,6 +4103,12 @@ public class MainFrame extends javax.swing.JFrame {
             image12.setIcon(immagine24);
             check12 = true;
         }
+        }
+        if(check12==true)
+        {
+            rimozioneSu+="b6,";
+                    }else{
+            rimozioneGiu+="b6,";
         }
     }//GEN-LAST:event_image12MouseClicked
 
@@ -3935,6 +4354,12 @@ public class MainFrame extends javax.swing.JFrame {
             check13 = true;
         }
         }
+        if(check13==true)
+        {
+            rimozioneSu+="c1,";
+                    }else{
+            rimozioneGiu+="c1,";
+        }
     }//GEN-LAST:event_image13MouseClicked
 
     private void image14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image14MouseClicked
@@ -4178,6 +4603,12 @@ public class MainFrame extends javax.swing.JFrame {
             image14.setIcon(immagine24);
             check14 = true;
         }
+        }
+        if(check14==true)
+        {
+            rimozioneSu+="c2,";
+                    }else{
+            rimozioneGiu+="c2,";
         }
     }//GEN-LAST:event_image14MouseClicked
 
@@ -4423,6 +4854,12 @@ public class MainFrame extends javax.swing.JFrame {
             check15 = true;
         }
         }
+        if(check15==true)
+        {
+            rimozioneSu+="c3,";
+                    }else{
+            rimozioneGiu+="c3,";
+        }
     }//GEN-LAST:event_image15MouseClicked
 
     private void image16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image16MouseClicked
@@ -4666,6 +5103,12 @@ public class MainFrame extends javax.swing.JFrame {
             image16.setIcon(immagine24);
             check16 = true;
         }
+        }
+        if(check16==true)
+        {
+            rimozioneSu+="c4,";
+                    }else{
+            rimozioneGiu+="c4,";
         }
     }//GEN-LAST:event_image16MouseClicked
 
@@ -4911,6 +5354,12 @@ public class MainFrame extends javax.swing.JFrame {
             check17 = true;
         }
         }
+        if(check17==true)
+        {
+            rimozioneSu+="c5,";
+                    }else{
+            rimozioneGiu+="c5,";
+        }
     }//GEN-LAST:event_image17MouseClicked
 
     private void image18MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image18MouseClicked
@@ -5154,6 +5603,12 @@ public class MainFrame extends javax.swing.JFrame {
             image18.setIcon(immagine24);
             check18 = true;
         }
+        }
+        if(check18==true)
+        {
+            rimozioneSu+="c6,";
+                    }else{
+            rimozioneGiu+="c6,";
         }
     }//GEN-LAST:event_image18MouseClicked
 
@@ -5399,6 +5854,12 @@ public class MainFrame extends javax.swing.JFrame {
             check19 = true;
         }
         }
+        if(check19==true)
+        {
+            rimozioneSu+="d1,";
+                    }else{
+            rimozioneGiu+="d1,";
+        }
     }//GEN-LAST:event_image19MouseClicked
 
     private void image20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image20MouseClicked
@@ -5642,6 +6103,12 @@ public class MainFrame extends javax.swing.JFrame {
             image20.setIcon(immagine24);
             check20 = true;
         }
+        }
+        if(check20==true)
+        {
+            rimozioneSu+="d2,";
+                    }else{
+            rimozioneGiu+="d2,";
         }
     }//GEN-LAST:event_image20MouseClicked
 
@@ -5887,6 +6354,12 @@ public class MainFrame extends javax.swing.JFrame {
             check21 = true;
         }
         }
+        if(check21==true)
+        {
+            rimozioneSu+="d3,";
+                    }else{
+            rimozioneGiu+="d3,";
+        }
     }//GEN-LAST:event_image21MouseClicked
 
     private void image22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image22MouseClicked
@@ -6130,6 +6603,12 @@ public class MainFrame extends javax.swing.JFrame {
             image22.setIcon(immagine24);
             check22 = true;
         }
+        }
+        if(check22==true)
+        {
+            rimozioneSu+="d4,";
+                    }else{
+            rimozioneGiu+="d4,";
         }
     }//GEN-LAST:event_image22MouseClicked
 
@@ -6375,6 +6854,12 @@ public class MainFrame extends javax.swing.JFrame {
             check23 = true;
         }
         }
+        if(check23==true)
+        {
+            rimozioneSu+="d5,";
+                    }else{
+            rimozioneGiu+="d5,";
+        }
     }//GEN-LAST:event_image23MouseClicked
 
     private void image24MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_image24MouseClicked
@@ -6619,6 +7104,12 @@ public class MainFrame extends javax.swing.JFrame {
             check24 = true;
         }
         }
+        if(check24==true)
+        {
+            rimozioneSu+="d6,";
+                    }else{
+            rimozioneGiu+="d6,";
+        }
     }//GEN-LAST:event_image24MouseClicked
 
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
@@ -6677,12 +7168,230 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton5MouseClicked
 
     private void imageMainMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_imageMainMouseClicked
-        if(checkMain==true)
+       if(checkMain==true)
         {
         imageMain.setIcon((Icon) listaImmagini.get((int) Math.floor(Math.random() * 23)));
         checkMain=false;
         }
     }//GEN-LAST:event_imageMainMouseClicked
+
+    public void cambioImmaginiAvversario(){
+        int i=0;
+        if("s".equals(rimozioneSuAvversario.substring(0,1)))
+        {
+            rimozioneSuAvversario=rimozioneSuAvversario.replace("s;", "");
+            String[] parts=rimozioneSuAvversario.split(",");
+            while(i<parts.length)
+            {
+            if("a1".equals(parts[i]))
+                avversario1.setIcon(avversario);
+            if("a2".equals(parts[i]))
+                avversario2.setIcon(avversario);
+            if("a3".equals(parts[i]))
+                avversario3.setIcon(avversario);
+            if("a4".equals(parts[i]))
+                avversario4.setIcon(avversario);
+            if("a5".equals(parts[i]))
+                avversario5.setIcon(avversario);
+            if("a6".equals(parts[i]))
+                avversario6.setIcon(avversario);
+            if("b1".equals(parts[i]))
+                avversario7.setIcon(avversario);
+            if("b2".equals(parts[i]))
+                avversario8.setIcon(avversario);
+            if("b3".equals(parts[i]))
+                avversario9.setIcon(avversario);
+            if("b4".equals(parts[i]))
+                avversario10.setIcon(avversario);
+            if("b5".equals(parts[i]))
+                avversario11.setIcon(avversario);
+            if("b6".equals(parts[i]))
+                avversario12.setIcon(avversario);
+            if("c1".equals(parts[i]))
+                avversario13.setIcon(avversario);
+            if("c2".equals(parts[i]))
+                avversario14.setIcon(avversario);
+            if("c3".equals(parts[i]))
+                avversario15.setIcon(avversario);
+            if("c4".equals(parts[i]))
+                avversario16.setIcon(avversario);
+            if("c5".equals(parts[i]))
+                avversario17.setIcon(avversario);
+            if("c6".equals(parts[i]))
+                avversario18.setIcon(avversario);
+            if("d1".equals(parts[i]))
+                avversario19.setIcon(avversario);
+            if("d2".equals(parts[i]))
+                avversario20.setIcon(avversario);
+            if("d3".equals(parts[i]))
+                avversario21.setIcon(avversario);
+            if("d4".equals(parts[i]))
+                avversario22.setIcon(avversario);
+            if("d5".equals(parts[i]))
+                avversario23.setIcon(avversario);
+            if("d6".equals(parts[i]))
+                avversario24.setIcon(avversario);
+            i++;
+            }
+        }
+        i=0;
+        if("g".equals(rimozioneGiuAvversario.substring(0,1)))
+        {
+            rimozioneGiuAvversario=rimozioneGiuAvversario.replace("g;", "");
+            String[] parts=rimozioneGiuAvversario.split(",");
+            while(i<parts.length)
+            {
+            if("a1".equals(parts[i]))
+                avversario1.setIcon(avversarioRimosso);
+            if("a2".equals(parts[i]))
+                avversario2.setIcon(avversarioRimosso);
+            if("a3".equals(parts[i]))
+                avversario3.setIcon(avversarioRimosso);
+            if("a4".equals(parts[i]))
+                avversario4.setIcon(avversarioRimosso);
+            if("a5".equals(parts[i]))
+                avversario5.setIcon(avversarioRimosso);
+            if("a6".equals(parts[i]))
+                avversario6.setIcon(avversarioRimosso);
+            if("b1".equals(parts[i]))
+                avversario7.setIcon(avversarioRimosso);
+            if("b2".equals(parts[i]))
+                avversario8.setIcon(avversarioRimosso);
+            if("b3".equals(parts[i]))
+                avversario9.setIcon(avversarioRimosso);
+            if("b4".equals(parts[i]))
+                avversario10.setIcon(avversarioRimosso);
+            if("b5".equals(parts[i]))
+                avversario11.setIcon(avversarioRimosso);
+            if("b6".equals(parts[i]))
+                avversario12.setIcon(avversarioRimosso);
+            if("c1".equals(parts[i]))
+                avversario13.setIcon(avversarioRimosso);
+            if("c2".equals(parts[i]))
+                avversario14.setIcon(avversarioRimosso);
+            if("c3".equals(parts[i]))
+                avversario15.setIcon(avversarioRimosso);
+            if("c4".equals(parts[i]))
+                avversario16.setIcon(avversarioRimosso);
+            if("c5".equals(parts[i]))
+                avversario17.setIcon(avversarioRimosso);
+            if("c6".equals(parts[i]))
+                avversario18.setIcon(avversarioRimosso);
+            if("d1".equals(parts[i]))
+                avversario19.setIcon(avversarioRimosso);
+            if("d2".equals(parts[i]))
+                avversario20.setIcon(avversarioRimosso);
+            if("d3".equals(parts[i]))
+                avversario21.setIcon(avversarioRimosso);
+            if("d4".equals(parts[i]))
+                avversario22.setIcon(avversarioRimosso);
+            if("d5".equals(parts[i]))
+                avversario23.setIcon(avversarioRimosso);
+            if("d6".equals(parts[i]))
+                avversario24.setIcon(avversarioRimosso);
+            i++;
+            }
+        }
+        rimozioneSu="";
+        rimozioneGiu="";
+    }
+    
+    
+    private void avversario12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario12MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario12MouseClicked
+
+    private void avversario13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario13MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario13MouseClicked
+
+    private void avversario14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario14MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario14MouseClicked
+
+    private void avversario15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario15MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario15MouseClicked
+
+    private void avversario16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario16MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario16MouseClicked
+
+    private void avversario17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario17MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario17MouseClicked
+
+    private void avversario18MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario18MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario18MouseClicked
+
+    private void avversario19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario19MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario19MouseClicked
+
+    private void avversario20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario20MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario20MouseClicked
+
+    private void avversario21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario21MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario21MouseClicked
+
+    private void avversario22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario22MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario22MouseClicked
+
+    private void avversario1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario1MouseClicked
+
+    private void avversario23MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario23MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario23MouseClicked
+
+    private void avversario3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario3MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario3MouseClicked
+
+    private void avversario24MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario24MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario24MouseClicked
+
+    private void avversario2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario2MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario2MouseClicked
+
+    private void avversario4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario4MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario4MouseClicked
+
+    private void avversario5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario5MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario5MouseClicked
+
+    private void avversario6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario6MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario6MouseClicked
+
+    private void avversario7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario7MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario7MouseClicked
+
+    private void avversario8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario8MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario8MouseClicked
+
+    private void avversario9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario9MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario9MouseClicked
+
+    private void avversario10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario10MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario10MouseClicked
+
+    private void avversario11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_avversario11MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_avversario11MouseClicked
 
     /**
      * @param args the command line arguments
@@ -6776,6 +7485,30 @@ public class MainFrame extends javax.swing.JFrame {
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Logo;
+    private javax.swing.JLabel avversario1;
+    private javax.swing.JLabel avversario10;
+    private javax.swing.JLabel avversario11;
+    private javax.swing.JLabel avversario12;
+    private javax.swing.JLabel avversario13;
+    private javax.swing.JLabel avversario14;
+    private javax.swing.JLabel avversario15;
+    private javax.swing.JLabel avversario16;
+    private javax.swing.JLabel avversario17;
+    private javax.swing.JLabel avversario18;
+    private javax.swing.JLabel avversario19;
+    private javax.swing.JLabel avversario2;
+    private javax.swing.JLabel avversario20;
+    private javax.swing.JLabel avversario21;
+    private javax.swing.JLabel avversario22;
+    private javax.swing.JLabel avversario23;
+    private javax.swing.JLabel avversario24;
+    private javax.swing.JLabel avversario3;
+    private javax.swing.JLabel avversario4;
+    private javax.swing.JLabel avversario5;
+    private javax.swing.JLabel avversario6;
+    private javax.swing.JLabel avversario7;
+    private javax.swing.JLabel avversario8;
+    private javax.swing.JLabel avversario9;
     private javax.swing.JLabel image1;
     private javax.swing.JLabel image10;
     private javax.swing.JLabel image11;
