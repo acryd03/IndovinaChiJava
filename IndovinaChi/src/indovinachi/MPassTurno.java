@@ -19,4 +19,17 @@ public class MPassTurno extends Messaggio{
         super(p);
     }
     
+        
+    public void execute() {
+        String[] csv = new String(packet.getData()).split(";");
+        String action=csv[0];
+        if(action.equals("g")){
+             String g = csv[1];
+             c.mainframe.rimozioneGiuAvversario=g;
+        }else{
+            String s = csv[1];
+            c.mainframe.rimozioneSuAvversario=s;
+        }
+     
+    }
 }

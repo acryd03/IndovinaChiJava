@@ -14,7 +14,7 @@ import java.net.UnknownHostException;
  */
 public class UtilPacchetto {
     
-    private DatagramSocket socket;
+    private DatagramSocket socketU;
     private DatagramPacket pack_Client; //pacchetti che arrivano dal client
     private DatagramPacket data_Server;
     private byte buffer[] = new byte[8192];
@@ -23,7 +23,7 @@ public class UtilPacchetto {
 
     public UtilPacchetto(int PORT,String ip) throws SocketException, UnknownHostException {
 
-        socket = new DatagramSocket(PORT);
+        socketU = new DatagramSocket(PORT);
         this.IPclient = InetAddress.getByName(ip);
         this.PORTclient=12345;
 
@@ -41,7 +41,7 @@ public class UtilPacchetto {
     public void UDP_receive() throws IOException {
 
         pack_Client = new DatagramPacket(buffer, buffer.length);
-        socket.receive(pack_Client);
+        socketU.receive(pack_Client);
         Gestione g=new Gestione();
         IPclient=pack_Client.getAddress();
         g.execute(pack_Client);
@@ -51,7 +51,7 @@ public class UtilPacchetto {
     public void UDP_send(String message) throws IOException {
 
         data_Server = new DatagramPacket(message.getBytes(), message.length(), IPclient, PORTclient);
-        socket.send(data_Server);
+        socketU.send(data_Server);
     }
 
     public String UDP_getData() {

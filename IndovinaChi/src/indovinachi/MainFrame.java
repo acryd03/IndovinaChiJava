@@ -130,7 +130,7 @@ public class MainFrame extends javax.swing.JFrame {
     /**
      * Creates new form MainFrame
      */
-    int port = 666;
+    
     int y = 0;
     Condivisa c;
     UtilPacchetto up;
@@ -280,7 +280,6 @@ public class MainFrame extends javax.swing.JFrame {
             System.out.println("NOME: " + s);
             panel.setLayout(new GridBagLayout());
             panel.setDoubleBuffered(true);
-            up = new UtilPacchetto(port, "");
             getContentPane().setBackground(Color.YELLOW);
         } else {
             System.exit(0);
@@ -1105,6 +1104,26 @@ public class MainFrame extends javax.swing.JFrame {
     private void jButton4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton4MouseClicked
         // TODO add your handling code here:
         //qua bisogna inviargli la stringa rimozioneSu e rimozioneGiu allavversario e rimetterle come erano prima
+        if (Condivisa.connesso) {
+            try {
+                String ipname = Gestione.connectedIP.getHostAddress();
+                String strS = rimozioneSu;
+                String strG = rimozioneGiu;
+                up.setIPclient(ipname);
+                up.UDP_send(strS);
+                up.UDP_send(strG);
+                rimozioneSu="s;";
+                rimozioneGiu="g;";
+            } catch (SocketException ex) {
+                Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (UnknownHostException ex) {
+                Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else {
+            JOptionPane.showMessageDialog(this, "Connettersi con un giocatore");
+        }
     }//GEN-LAST:event_jButton4MouseClicked
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -7141,10 +7160,12 @@ public class MainFrame extends javax.swing.JFrame {
     private void jButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseClicked
         // TODO add your handling code here:
 
-        if (Condivisa.connesso) {
+       if (Condivisa.connesso) {
             if (Condivisa.connesso) {
                 try {
+
                     Condivisa.connesso = false;
+                     c.pronto = true;
                     Gestione gp = new Gestione();
                     String ipname = Gestione.connectedIP.getHostAddress();
                     String str = "p;";
