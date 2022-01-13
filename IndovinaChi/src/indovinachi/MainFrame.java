@@ -1104,6 +1104,26 @@ public class MainFrame extends javax.swing.JFrame {
     private void jButton4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton4MouseClicked
         // TODO add your handling code here:
         //qua bisogna inviargli la stringa rimozioneSu e rimozioneGiu allavversario e rimetterle come erano prima
+        if (Condivisa.connesso) {
+            try {
+                String ipname = Gestione.connectedIP.getHostAddress();
+                String strS = rimozioneSu;
+                String strG = rimozioneGiu;
+                up.setIPclient(ipname);
+                up.UDP_send(strS);
+                up.UDP_send(strG);
+                rimozioneSu="s;";
+                rimozioneGiu="g;";
+            } catch (SocketException ex) {
+                Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (UnknownHostException ex) {
+                Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else {
+            JOptionPane.showMessageDialog(this, "Connettersi con un giocatore");
+        }
     }//GEN-LAST:event_jButton4MouseClicked
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -7143,11 +7163,9 @@ public class MainFrame extends javax.swing.JFrame {
        if (Condivisa.connesso) {
             if (Condivisa.connesso) {
                 try {
-<<<<<<< Updated upstream
+
                     Condivisa.connesso = false;
-=======
                      c.pronto = true;
->>>>>>> Stashed changes
                     Gestione gp = new Gestione();
                     String ipname = Gestione.connectedIP.getHostAddress();
                     String str = "p;";

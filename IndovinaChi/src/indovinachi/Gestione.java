@@ -68,12 +68,19 @@ public class Gestione extends Thread {
                 case "p":{
                     MPronto mp=new MPronto(p);
                     mp.execute();
+                    break;
                 }
                 //in teoria qui arriva il cambio turno per noi e cambia le immagini avversare se le stringhe sono arrivate
-                case "t":{
-                    c.mainframe.rimozioneSuAvversario="stringa che deve mettere cassina";
-                    c.mainframe.rimozioneGiuAvversario="stringa che deve mettere cassina";
+                case "g":{
+                    MPassTurno mps=new MPassTurno(p);
+                    mps.execute();
                     c.mainframe.cambioImmaginiAvversario();
+                    break;
+                }case "s":{
+                    MPassTurno mps=new MPassTurno(p);
+                    mps.execute();
+                    c.mainframe.cambioImmaginiAvversario();
+                    break;
                 }
 
             }
