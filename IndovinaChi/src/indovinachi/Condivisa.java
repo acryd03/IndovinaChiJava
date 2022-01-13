@@ -27,7 +27,7 @@ public class Condivisa {
     boolean prontoDest=false;
 
     private Condivisa() throws SocketException, UnknownHostException {
-        socket = new UtilPacchetto(12345, "localhost"); //socket per ascolto
+        socket = new UtilPacchetto(12347, "localhost"); //socket per ascolto
         destinatario = "";
         nome = "";
         messaggio = "";
