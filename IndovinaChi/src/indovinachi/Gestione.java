@@ -36,6 +36,7 @@ public class Gestione extends Thread {
             connectedIP = p.getAddress();
             MApertura ma = new MApertura(p);
             ma.execute();
+            
         } else {
             switch (action) {               
                 case "c": {
@@ -51,6 +52,7 @@ public class Gestione extends Thread {
                 }
                 case "y": {
                     try {
+                        action="m";
                         connectedIP = p.getAddress();
                         MRispApertura mar = new MRispApertura(p);
                         mar.execute();
