@@ -15,7 +15,7 @@ import javax.swing.JFrame;
  */
 public class Condivisa {
 
-    UtilPacchetto socket;
+    UtilPacchetto socketC;
     static boolean connesso = false;
     String destinatario;
     JFrame frame;
@@ -27,7 +27,7 @@ public class Condivisa {
     boolean prontoDest=false;
 
     private Condivisa() throws SocketException, UnknownHostException {
-        socket = new UtilPacchetto(12345, "localhost"); //socket per ascolto
+        socketC = new UtilPacchetto(12345, "localhost"); //socket per ascolto
         destinatario = "";
         nome = "";
         messaggio = "";
@@ -45,7 +45,7 @@ public class Condivisa {
     }
 
     public UtilPacchetto getSocket() {
-        return socket;
+        return socketC;
     }
 
     public void setFrame(JFrame frame) {

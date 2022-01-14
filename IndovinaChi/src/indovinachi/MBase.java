@@ -4,6 +4,7 @@
  */
 package indovinachi;
 
+import java.awt.Graphics;
 import java.net.DatagramPacket;
 import java.net.SocketException;
 import java.net.UnknownHostException;
@@ -25,6 +26,7 @@ public class MBase extends Messaggio {
         String[] csv = new String(packet.getData()).split(";");
         messaggio = csv[1];
         c.messaggio = messaggio;
+        c.mainframe.repaint();
     }
 
 }

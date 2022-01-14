@@ -18,7 +18,7 @@ import javax.swing.JFrame;
 public class ThreadGrafica extends Thread {
 
     Condivisa c;
-  
+    
 
     public ThreadGrafica() throws SocketException, UnknownHostException {
         c=Condivisa.getInstance();

@@ -133,6 +133,7 @@ public class MainFrame extends javax.swing.JFrame {
     
     int y = 0;
     Condivisa c;
+    int port=666;
     UtilPacchetto up;
 
     public MainFrame() throws SocketException, UnknownHostException {
@@ -273,9 +274,9 @@ public class MainFrame extends javax.swing.JFrame {
             
             
             c = Condivisa.getInstance();
-            c.setFrame(this);
+            c.mainframe=this;
             this.setTitle("INDOVINA CHI");
-
+            up=new UtilPacchetto(port,"");
             c.nome = s;
             System.out.println("NOME: " + s);
             panel.setLayout(new GridBagLayout());
@@ -361,6 +362,8 @@ public class MainFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(240, 240, 245));
+        setMaximumSize(new java.awt.Dimension(1550, 1000));
+        setPreferredSize(new java.awt.Dimension(1550, 1000));
 
         jScrollPane1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 102, 255), 2));
         jScrollPane1.setForeground(new java.awt.Color(255, 255, 255));
